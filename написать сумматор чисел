@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+ setlocale(0,"");
+ double a,b;
+ cout<<" введите число";
+ cin <<a;
+ cont<<"вы ввели:"<<a<< endl;
+ cout<<" введите число";
+ cin <<b;
+ cont<<"вы ввели:"<<b<< endl;
+ double c=0;
+ c=a+b;
+ cout<<"ваш результат:"<<c<< endl;
+ return 0;
+}
