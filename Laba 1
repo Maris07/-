@@ -1,6 +1,6 @@
 #include <iostream>
-int num=0;
+using namespace std;
 int main(){
-  count <<"напиши HELLO"<<ondl;
-  cin>>num;
-  cout<<"спасибо, ты ввел HELLO"<<num<<end;
+  cout <<"HELLOW!"<<endl;
+  return 0;}
+  
