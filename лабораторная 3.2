@@ -23,4 +23,30 @@ int main()
 		cout << "Ошибка: N < 0.";
 	}	
 	return 0;
+	
+}
+int main()
+{
+setlocale(0,"");
+int numb=1000;
+int rez =0;
+int cout =0;
+for (int i=2; i< numb; ++i)
+{
+for (int j=i;j<numb;++j)
+{
+if (i%j==0)
+cout++;
+}
+}
+if (cout<3)
+{
+rez=i;
+cout<<rez<<"";
+}
+cout=0;
+}
+cout<<endl;
+system("pause");
+return 0;
 }
