@@ -1,0 +1,38 @@
+#include<iostream> 
+using namespace std; 
+class Person 
+{
+private:
+    char firstname;
+    char lastname;
+    float height;
+public:
+    void set(int firstname) { firstname = firstname; }
+    int get() { return firstname; }
+    {
+        cout << "Введите ваше имя";
+        cin >> firstname;
+ 
+        cout << "Введите вашу фамилию";
+        cin >> lastname;
+ 
+        cout << "Введите ваш рост";
+        cin >> height;
+    }
+    void show()
+    {
+        cout << "Ваше имя: " << firstname << endl;
+        cout << "Ваша фамилия: " << lastname << endl;
+        cout << "Ваш рост: " << height << endl;
+    }
+    
+};
+int main()
+{    
+    std::string students[4] = {
+        "Иванов", "Петров", "Сидоров",
+        "Кузнецов"
+    };
+    std::cout << students[0] <<  std::endl;
+    return 0;
+}
