@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+class BtsrMotors{
+  public:
+  int counter; // общее количество автомобилей
+  protected:
+  int bmw;
+  int mercedes;
+  int Gazelle;
+  int Gazelle NEXT;
+  };
+ class PassengerAuto : public BtsrMotors {// исключительно легковые авто ( 1 класс)
+ private:
+	int wheels;
+ 
+public:
+	PassengerAuto (float speed, int wheels) {
+		this->speed = speed;
+		this->wheels = wheels;
+		cout << "Speed is: " << speed << ", model is - " << wheels << endl;
+	}
+};
+
+int main() {
+	PassengerAuto bmw(301.2, 4);
+	PassengerAuto mercedes(270, 4);
+ 
+	return 0;
+};
+ class CargoAuto : public BtsrMotors {//  исключительно грузовые авто (2 класс)
+ private:
+	int wheels;
+ 
+public:
+	CargoAuto (float speed, int wheels) {
+		this->speed = speed;
+		this->wheels = wheels;
+		cout << "Speed is: " << speed << ", model is - " << wheels << endl;
+	}
+};
+
+int main() {
+	CargoAuto Gazelle(182, 5);
+	CargoAuto Gazelle NEXT(200, 5);
+ 
+	return 0;
+};
+int main() {
+cin >>bmw>>mercedes>>Gazelle>>Gazelle NEXT;
+counter = bmw +mercedes+Gazelle+Gazelle NEXT;
+cout << counter;
+getch();
+return 0;
+}
