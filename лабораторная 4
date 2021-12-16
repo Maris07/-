@@ -29,10 +29,27 @@ public:
 };
 int main()
 {    
-    std::string students[4] = {
-        "Иванов", "Петров", "Сидоров",
-        "Кузнецов"
-    };
-    std::cout << students[0] <<  std::endl;
-    return 0;
-}
+  void print person(personP),
+  int main()
+  person arr[4]
+        ["Иванов", "Петров", "Сидоров",
+        "Кузнецов"]
+      struck person {
+      char name[4];
+       char firstname;
+        char lastname;
+        float height;
+        person persons [4];
+        person[0]={"Ваня";"Иванов";180};
+        person[1]={"Кирилл";"Петров";200};
+        person[2]={"Сергей";"Сидоров";198};
+        person[3]={"Алексей";"Кузнецов";186};
+        person[0]. firstname = Иван;
+        retern 0;  
+        dor (int i=0; i<5, i++){
+       cout<<person min "<<i++<<
+       print person (air[i]);}}
+       void print person (person[1]){
+
+      }
+   
